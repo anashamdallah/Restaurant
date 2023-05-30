@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/af4ce8c886.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <img src="Assests/10067826.jpg" alt="Logo" width="50px" height="50px"/>
+        <h1>RESTAURANT</h1>
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="About.html">About us</a>         
+        </ul>
+    </header>
+    <!-- main -->
+    <main>
+        <form id="form">
+            <fieldset>
+                <legend> Food Information</legend>
+                <label for="name" id="label1">Name</label>
+                <input type="text" id= "name" placeholder="New food"><br/>
+                <label for="type" id="label2">Type</label>
+                <select name="type" id="type">
+                    <option value="">choose one</option>
+                    <option value="Fruit and vegetables">Fruit and vegetables</option>
+                    <option value="Starchy food">Starchy food</option>
+                    <option value="Dairy">Dairy</option>
+                    <option value="Protein">Protein</option>
+                    <option value="Fat">Fat</option>
+                </select><br/>
+                <label for="price" id="label3">Price</label>
+                <input type="integer" id= "price" placeholder="00 $"><br/>
+                <input type="submit" id= "save" value="Save"><br/>
+            </fieldset>
+        </form>
+        <table id="foods">
+
+        </table>
+        </form>
+    </main>
+    <!-- <footer></footer> -->
+    <footer>
+        <p> 
+            Copyright © 2023 - UI/UX Team
+        </p>
+        <p>
+            <a href="https://www.facebook.com" ><i class="fa-brands fa-facebook"></i></a></i>
+            <a href="https://web.whatsapp.com/" ><i class="fa-brands fa-whatsapp"></a></i>
+            <a href="https://instagram.com/" ><i class="fa-brands fa-instagram"></a></i>
+
+        </p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
